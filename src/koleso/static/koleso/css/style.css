@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Coda|Rajdhani:400,500,600,700|Rubik:400,500');
+body {
+    min-width: 320px;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main.main{
+    flex: 1 1 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+/**/
+.content-one {
+    background-color: #343434;
+    border: 1px solid #9C9C9C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    min-height: 300px;
+    /* margin: 5px; */
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.content-two {
+    background-color: #f4f4f4;
+    border: 1px solid #9C9C9C;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    min-height: 300px;
+    /* margin: 5px; */
+    margin-bottom: 10px;
+}
+.btn-color {
+    background-color: #f5bf23;
+}
+.form-control {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #2d2d2d;
+    padding: 0;
+    margin-bottom: 10px;
+    background: none;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+.table-hover tbody{
+    cursor: pointer;
+}
+
+.content{
+    padding: 20px;
+}

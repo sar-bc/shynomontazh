@@ -1,0 +1,102 @@
+{% extends 'koleso/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Запишитесь на шиномонтаж(АДМИН)</h3>
+            <div id="message"></div>
+            <form id="form">
+                <input type="hidden" name="step" value="1">
+                <div class="row">
+                    <div class="col-md-4 form-label">
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="col-md-4 form-label">
+                        <input type="text" id="avto" name="avto" placeholder="Ваш автомобиль(марка)" required>
+                        <!--<br><small>( Нексия или Газель)</small>-->
+                    </div>
+                    <div class="col-md-4 form-label">
+                        <input type="tel" id="phone" name="phone" placeholder="+7(___)___-__-__" required>
+                    </div>
+                </div><!--row-->
+                <div class="row">
+                    <div class="col-md-4 form-label">
+                        <input type="date" id="date" name="date" required
+                            onchange="handleDateChange(event)">
+                    </div>
+                    <div class="col-md-4 form-label">
+
+                        <table id="table_time">
+                            <tr style="text-align: center;">
+                                <td><input type="button" name="" class="btn btn-dark" value="08:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="08:30"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="09:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="09:30"></td>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <td><input type="button" name="" class="btn btn-dark" value="10:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="10:30"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="11:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="11:30"></td>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <td><input type="button" name="" class="btn btn-dark" value="12:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="12:30"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="13:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="13:30"></td>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <td><input type="button" name="" class="btn btn-dark" value="14:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="14:30"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="15:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="15:30"></td>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <td><input type="button" name="" class="btn btn-dark" value="16:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="16:30"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="17:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="17:30"></td>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <td><input type="button" name="" class="btn btn-dark" value="18:00"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="18:30"></td>
+                                <td><input type="button" name="" class="btn btn-dark" value="19:00"></td>
+                                <td></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 form-label text-start">
+                            <input type="submit" value="Записаться" class="btn btn-dark"><span style="margin-right: 50px;"></span><a class="btn btn-danger text-end" id="ref">Обновить</a>
+                        </div>
+                    </div><!--row-->
+                </div><!--row-->
+            </form>
+
+        </div><!--col-sm-12-->
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="client" class="table-responsive-sm">
+                <table id="tab_client" class="table table-striped table-bordered table-sm table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">Время</th>
+                        <th scope="col">Имя</th>
+                        <th scope="col">Телефон</th>
+                        <th scope="col">Авто</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

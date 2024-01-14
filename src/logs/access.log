@@ -1,0 +1,7 @@
+5.227.195.29 - - [11/Jan/2024:21:28:03 +0400] "GET / HTTP/1.1" 500 800 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36"
+5.227.195.29 - - [11/Jan/2024:21:28:03 +0400] "GET /favicon.ico HTTP/1.1" 500 800 "http://alex-lev.ru/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36"
+5.227.195.29 - - [11/Jan/2024:21:44:40 +0400] "GET / HTTP/1.1" 404 490 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36"
+5.227.195.29 - - [11/Jan/2024:21:44:40 +0400] "GET /favicon.ico HTTP/1.1" 404 489 "http://alex-lev.ru/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36"
+5.227.195.29 - - [11/Jan/2024:21:44:44 +0400] "GET / HTTP/1.1" 404 489 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36"
+5.227.195.29 - - [11/Jan/2024:21:44:53 +0400] "GET / HTTP/1.1" 404 490 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36"
+5.227.195.29 - - [11/Jan/2024:21:48:40 +0400] "GET / HTTP/1.1" 500 800 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36"

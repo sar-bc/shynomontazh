@@ -1,0 +1,22 @@
+[Thu Jan 11 21:28:03.315982 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65181] mod_wsgi (pid=1106): Failed to exec Python script file '/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py'.
+[Thu Jan 11 21:28:03.316080 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65181] mod_wsgi (pid=1106): Exception occurred processing WSGI script '/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py'.
+[Thu Jan 11 21:28:03.316333 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65181] Traceback (most recent call last):
+[Thu Jan 11 21:28:03.316371 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65181]   File "/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py", line 12, in <module>
+[Thu Jan 11 21:28:03.316382 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65181]     from django.core.wsgi import get_wsgi_application
+[Thu Jan 11 21:28:03.316412 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65181] ModuleNotFoundError: No module named 'django'
+[Thu Jan 11 21:28:03.953647 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65182] mod_wsgi (pid=1106): Failed to exec Python script file '/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py'.
+[Thu Jan 11 21:28:03.953704 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65182] mod_wsgi (pid=1106): Exception occurred processing WSGI script '/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py'.
+[Thu Jan 11 21:28:03.953802 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65182] Traceback (most recent call last):
+[Thu Jan 11 21:28:03.953839 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65182]   File "/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py", line 12, in <module>
+[Thu Jan 11 21:28:03.953851 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65182]     from django.core.wsgi import get_wsgi_application
+[Thu Jan 11 21:28:03.953879 2024] [wsgi:error] [pid 1106] [remote 5.227.195.29:65182] ModuleNotFoundError: No module named 'django'
+[Thu Jan 11 21:44:40.225200 2024] [wsgi:error] [pid 1460] [client 5.227.195.29:65383] Target WSGI script not found or unable to stat: /home/sar-bc/shynomontazh/src/zvezdny
+[Thu Jan 11 21:44:40.965310 2024] [wsgi:error] [pid 1460] [client 5.227.195.29:65383] Target WSGI script not found or unable to stat: /home/sar-bc/shynomontazh/src/zvezdny, referer: http://alex-lev.ru/
+[Thu Jan 11 21:44:44.180797 2024] [wsgi:error] [pid 1460] [client 5.227.195.29:65383] Target WSGI script not found or unable to stat: /home/sar-bc/shynomontazh/src/zvezdny
+[Thu Jan 11 21:44:53.019274 2024] [wsgi:error] [pid 1462] [client 5.227.195.29:65384] Target WSGI script not found or unable to stat: /home/sar-bc/shynomontazh/src/zvezdny
+[Thu Jan 11 21:48:40.907158 2024] [wsgi:error] [pid 1572] [remote 5.227.195.29:65427] mod_wsgi (pid=1572): Failed to exec Python script file '/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py'.
+[Thu Jan 11 21:48:40.907243 2024] [wsgi:error] [pid 1572] [remote 5.227.195.29:65427] mod_wsgi (pid=1572): Exception occurred processing WSGI script '/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py'.
+[Thu Jan 11 21:48:40.907500 2024] [wsgi:error] [pid 1572] [remote 5.227.195.29:65427] Traceback (most recent call last):
+[Thu Jan 11 21:48:40.907538 2024] [wsgi:error] [pid 1572] [remote 5.227.195.29:65427]   File "/home/sar-bc/shynomontazh/src/alex_lev/wsgi.py", line 12, in <module>
+[Thu Jan 11 21:48:40.907551 2024] [wsgi:error] [pid 1572] [remote 5.227.195.29:65427]     from django.core.wsgi import get_wsgi_application
+[Thu Jan 11 21:48:40.907582 2024] [wsgi:error] [pid 1572] [remote 5.227.195.29:65427] ModuleNotFoundError: No module named 'django'
